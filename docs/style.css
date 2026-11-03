@@ -2,3 +2,4 @@
 /* Fallbacks for Safari on the first iPad Air. */
 .cell{height:var(--cell-size,52px);aspect-ratio:auto}.cell.clue{font-size:12px}.cell{font-size:28px}h1{font-size:44px}dialog{display:none}dialog[open]{display:block;position:fixed;top:8%;left:5%;right:5%;margin:auto;z-index:10;max-height:84vh;overflow:auto;box-shadow:0 8px 60px #273c3066}.keyboard{margin-left:-3px;margin-right:-3px;gap:0}.keyboard button{margin:3px}.actions{gap:0}.actions button{margin:0 8px 8px 0}@media(max-width:580px){h1{font-size:35px}.cell{font-size:24px}.cell.clue{font-size:10px}}
 .questions{grid-column:1 / -1}.keyboard button{width:calc(14.28% - 6px)}
+.board-section{overflow-x:auto;-webkit-overflow-scrolling:touch}.board-section .board{max-width:none}
