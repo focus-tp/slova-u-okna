@@ -4,3 +4,4 @@
 .questions{grid-column:1 / -1}.keyboard button{width:calc(14.28% - 6px)}
 .board-section{overflow-x:auto;-webkit-overflow-scrolling:touch}.board-section .board{max-width:none}
 .catalog-label{margin:12px 0 22px}.board-section .cell.clue{font:600 13px/1.15 Arial,sans-serif;overflow-wrap:break-word}.board-section{border-radius:8px}.board-section:after{content:'↔ Передвиньте сетку, чтобы увидеть остальные клетки';display:block;font:15px/1.4 Arial,sans-serif;color:#58634f;margin:10px 0}
+.board{gap:0;background:#778976;grid-auto-rows:var(--cell-size,88px)}.board .cell{border:1px solid #9aa998;border-radius:0;height:var(--cell-size,88px)}.input-label{display:block;font:17px/1.4 Arial,sans-serif;margin:18px 0 8px}.input-label + input{display:block;width:100%;min-height:54px;border:2px solid #6f885b;border-radius:9px;background:#fffef8;color:#273c30;font:22px Arial,sans-serif;padding:10px;margin-bottom:10px}
